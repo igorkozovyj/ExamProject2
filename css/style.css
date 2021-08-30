@@ -7,6 +7,9 @@ nav img {
 .lets-start img {
     width: 750px;
 }
+#stories img {
+    width: 650px;
+}
 .texts {
     max-width: 650px;
 }
@@ -32,5 +35,11 @@ nav img {
     nav .social {
         display: flex;
         justify-content: center;
+    }
+    .row img {
+        width: 750px;
+    }
+    .imag {
+        text-align: center !important;
     }
 }
