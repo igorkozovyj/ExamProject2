@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galerry</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -115,6 +116,64 @@
                 <p class="mb-0 imag"><img class="img-fluid" src="./images/3.jpg" alt=""></p>
             </div>
         </div>
+
+
+
+        <div class="gallery" id="gallery">
+            <h1 class="text-center mt-4 mb-4">Gallery</h1>
+            <div id="portfolio">
+                <div class="controlls">
+                <i class="bi bi-arrow-left lefts"></i>
+                <i class="bi bi-arrow-right rights"></i>
+            </div>
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-md-6 col-lg-3 col-sm-12">
+                            <a class="portfolio-box" href="./images/1.jpg" title="Project Name">
+                                <img class="img-fluid" src="./images/1.jpg" alt="...">
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Category</div>
+                                    <div class="project-name">Project Name</div>
+                                    <p class="mt-4"><button type="button" class="btn shadow-sm mb-5 text-white border">MORE</button></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-sm-12">
+                            <a class="portfolio-box" href="./images/2.jpg" title="Project Name">
+                                <img class="img-fluid" src="./images/2.jpg" alt="...">
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Category</div>
+                                    <div class="project-name">Project Name</div>
+                                    <p class="mt-4"><button type="button" class="btn shadow-sm mb-5 text-white border">MORE</button></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 hide">
+                            <a class="portfolio-box" href="./images/3.jpg" title="Project Name">
+                                <img class="img-fluid" src="./images/3.jpg" alt="...">
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Category</div>
+                                    <div class="project-name">Project Name</div>
+                                    <p class="mt-4"><button type="button" class="btn shadow-sm mb-5 text-white border">MORE</button></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 hide">
+                            <a class="portfolio-box" href="./images/4.jpg" title="Project Name">
+                                <img class="img-fluid" src="./images/4.jpg" alt="...">
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Category</div>
+                                    <div class="project-name">Project Name</div>
+                                    <p class="mt-4"><button type="button" class="btn shadow-sm mb-5 text-white border">MORE</button></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
     </main>
 
 
@@ -127,6 +186,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
+        <script src="./js/script.js"></script>
 </body>
 
 </html>
