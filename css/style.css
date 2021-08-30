@@ -16,12 +16,9 @@ nav img {
 .texts button {
     font-size: 13px;
 }
-@media screen and (max-width:750px) {
+@media screen and (max-width:1000px) {
     .lets-start {
         padding-top: 15px;
-    }
-    .row .border-bottom {
-        border:0 !important;
     }
     .texts {
         margin-top: 15px;
@@ -41,5 +38,10 @@ nav img {
     }
     .imag {
         text-align: center !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .row .border-bottom {
+        border:0 !important;
     }
 }
