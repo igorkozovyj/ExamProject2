@@ -4,3 +4,33 @@ body {
 nav img {
     width: 18px;
 }
+.lets-start img {
+    width: 750px;
+}
+.texts {
+    max-width: 650px;
+}
+.texts button {
+    font-size: 13px;
+}
+@media screen and (max-width:750px) {
+    .lets-start {
+        padding-top: 15px;
+    }
+    .row .border-bottom {
+        border:0 !important;
+    }
+    .texts {
+        margin-top: 15px;
+    }
+    .texts button {
+        width: 100%;
+    }
+    nav {
+        text-align: center;
+    }
+    nav .social {
+        display: flex;
+        justify-content: center;
+    }
+}
