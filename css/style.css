@@ -130,3 +130,10 @@ nav img {
   .feat > div:nth-child(1), .feat > div:nth-child(4) {
       border: 0;
   }
+  footer img {
+      width: 50px;
+      padding: 10px;
+  }
+  footer img:hover {
+      background-color: rgba(0, 0, 0, 0.082);
+  }
